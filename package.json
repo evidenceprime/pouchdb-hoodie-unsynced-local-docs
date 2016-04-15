@@ -5,9 +5,6 @@
   "bugs": {
     "url": "https://github.com/hoodiehq/pouchdb-hoodie-unsynced-local-docs/issues"
   },
-  "dependencies": {
-    "pouchdb-extend": "^0.1.2"
-  },
   "devDependencies": {
     "browserify": "^10.2.4",
     "doxx": "1.4.0",
@@ -15,7 +12,7 @@
     "istanbul": "^0.3.15",
     "istanbul-coveralls": "^1.0.3",
     "memdown": "^1.0.0",
-    "pouchdb": "^3.6.0",
+    "pouchdb": "^5.3.0",
     "semantic-release": "3.3.2",
     "standard": "^4.2.1",
     "tap-spec": "^4.0.0",
