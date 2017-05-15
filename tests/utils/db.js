@@ -1,8 +1,8 @@
 'use strict'
 
-var PouchDB = require('pouchdb').defaults({
-  db: require('memdown')
-})
+var PouchDB = require('pouchdb-core')
+  .plugin(require('pouchdb-adapter-memory'))
+  .plugin(require('pouchdb-replication'))
 
 if (!PouchDB.prototype.unsyncedLocalDocs) PouchDB.plugin(require('../../'))
 
